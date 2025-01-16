@@ -1,3 +1,4 @@
+let contenitoreTabella = document.getElementById("contenitore-tabella-mult")
 let table = document.createElement("table");
 for (let i = 1; i <= 10; i++){
   const tr = document.createElement("tr")
@@ -8,4 +9,4 @@ for (let i = 1; i <= 10; i++){
   }
   table.appendChild(tr)
 }
-document.body.appendChild(table)
+contenitoreTabella.appendChild(table)

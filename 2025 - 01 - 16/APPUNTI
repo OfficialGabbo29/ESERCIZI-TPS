@@ -1,0 +1,26 @@
+txtcontet => quello che metto nel tag viene interpretato come stringhe
+innerHTML => se metto qualcosa, posso eseguire eventuali tag html che ci sono al suo interno
+gli array in JS sono degli oggetti => in realtà non esiste a livello tecnico un array ma una lista dinamica con type diverso
+
+JAVA SCRIPT OGGETTI
+non sono le classi
+l'oggetto è contenitore di un valore coppie => simile al JSON
+la differenza tra json e l'oggetto JS è che json contiene solo stringhe mentre l'oggetto js può contenere cose diverse come stringhe, array...
+ESEMPIO:
+let obj = {
+  partita: "G1P2",
+  casa:"Italia",
+  ospiti:"Irlanda"
+}
+obj.punteggio = { //  proprietà costituita da un oggetto
+  ptcasa: "3",
+  ptospiti: "26",
+}
+
+var res = obj.partita // G1P2
+var res = obj.punteggio // OBJECT
+-----------------------------------
+- un oggetto può contenere anche metodi
+function getVS() {return "Italia-Irlanda}
+
+aggiungo la funzione a runtime => obj.vs = getVS;
